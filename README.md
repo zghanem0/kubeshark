@@ -79,10 +79,10 @@ Then you should be able to see view like this
 ![dashboard](https://raw.githubusercontent.com/kubeshark/assets/master/png/kubeshark-ui.png)
 
 
-## Usage
+## Usage example
 Kubeshark provide Real-time monitoring for all traffic going in, out and across containers, pods, namespaces, nodes and clusters, which allow you to pinpoint and resolve issues efficiently, ensuring stable network performance and enhancing application success in Kubernetes environments and identifying complex networking issue. e.g.
 
-In the below example i'm writing a query to identify the traffic follow from the nginx pod aws.com. The queries is writen by [Kubeshark Filter Language (KFL)](https://docs.kubeshark.co/en/filtering#kfl-syntax-reference) is the language implemented inside kubeshark/worker that enables the user to filter the traffic efficiently and precisely.
+In the below example, i'm writing a query to identify the traffic flow from the pod "nginx" in the "default" namespace to "aws.com" and "coredns". The query is writen by [Kubeshark Filter Language (KFL)](https://docs.kubeshark.co/en/filtering#kfl-syntax-reference) is the language implemented inside kubeshark/worker that enables the user to filter the traffic efficiently and precisely.
 
 ![query](https://github.com/zghanem0/kubeshark/blob/main/api.png?raw=true)
 
